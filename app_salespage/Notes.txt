@@ -1,0 +1,71 @@
+To change navbar to white: "navbar-default"
+
+Change <a class="navbar-brand" href="#">Gamma</a> to green text: 
+    1. CSS Class em-text 
+        <a class="navbar-brand em-text" href="#">Gamma</a>
+    2. In style.css
+        .em-text {
+            
+            color:#1caa98 !important
+        }
+        
+!important: A rule that has the !important property will always be applied no matter where that rule appears in the CSS document.
+
+Container Class: 
+    Brings everything to the middle and gives it margin.
+    Make sure everything you want to be applied to div container is inside the div tag container 
+    
+    
+Grid System: 
+    http://getbootstrap.com/css/#grid
+
+    Columns should always add up to 12
+
+Good for main content and sidebar 
+    <div class="row">
+      <div class="col-md-8">.col-md-8</div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+
+
+3 column across web page: 
+    <div class="row">
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+
+Splits Page in Half: Will be used for projet jumbotron 
+
+    For resizing columns pertaining to screen size: 
+        md: medium for when page is on full wepage
+        sm: for when page is in a smaller space 
+
+    <div class="row">
+      <div class="col-md-6">.col-md-6</div>
+      <div class="col-md-6">.col-md-6</div>
+    </div>
+    
+To change color of an inline text: 
+         <h1>Capture<span class="em-text"> Life</span></h1>
+         Use span because of you use div, the next text will go on next line 
+         
+Push Down Content: 
+    Add a margin-top to top property 
+    
+Buttons: 
+     <a class="btn btn-primary" href="#" role="button">Read More</a>
+     
+For the image thats breaking out of the div (demo phones)
+Use 100% width, so it'll fill up 100% of its parent div 
+
+
+To make content appear not overly to the left or right:
+    Use Offset columns:
+        http://getbootstrap.com/css/#grid
+        
+        
+Bootstrap comes with icons like checkmarts: 
+    They're called glyphicons 
+    To use, copy their class names then:
+    <i class="glyphicon glyphicon-ok"></i>

@@ -1,0 +1,92 @@
+body {
+    padding-top: 50px;
+}
+
+section {
+    padding: 40px 0 40px 0;
+}
+
+
+/*Jumbotron*/
+
+.em-text {
+    color: #1caa98 !important;
+    /*     A rule that has the !important property will always be applied no matter where that rule appears in the CSS document.*/
+}
+
+.jumbotron {
+    background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+    color: white;
+    height: 598px;
+    overflow: none;
+}
+
+.jumbotron h1 {
+    /*    to move h1 down*/
+    margin-top: 60px;
+}
+
+.jumbotron p {
+    margin-bottom: 40px;
+}
+
+.jumbotron .apt-btn {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.jumbotron .showcase-img {
+    width: 75%;
+}
+
+
+/*3 section column*/
+
+img.demo {
+    width: 100%;
+    /*
+For the image thats breaking out of the div (demo phones)
+Use 100% width, so it'll fill up 100% of its parent div 
+*/
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+#middle h2 {
+    text-align: center !important;
+}
+
+
+/*Feature section*/
+
+#feature {
+    background: #1caa98;
+    color: white;
+    padding: 40px;
+    overflow: auto;
+}
+
+#feature ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2.0 em;
+}
+
+
+/*Footer Section*/
+
+footer {
+    background: #333;
+    color: white;
+    padding: 30px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer p {
+    float: right;
+}
